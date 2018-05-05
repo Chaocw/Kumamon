@@ -11,13 +11,25 @@
       box-sizing: border-box;
     }
     body {
-      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    #code-wrapper .code {
+      overflow: hidden;
+      width: 50vw;
+      height: 50vh;
+    }
+    #preview-wrapper {
+      width: 50vw;
+      height: 50vh;
       display: flex;
       justify-content: center;
       align-items: center;
+
     }
     .wrapper .up {
       position: relative;
+
     }
     .head {
       width: 160px;
