@@ -1,5 +1,8 @@
 !function () {
-    window.code = `.head::after {
+    window.code = `/*
+*来看看笨熊是怎么画的
+*/
+.head::after {
   content: '';
   width: 100px;
   height: 100px;
